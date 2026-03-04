@@ -18,3 +18,104 @@ The goal of this specialization is to build strong, production-ready DevOps skil
   - Git Fundamentals
   - Branching Strategies
   - Collaboration Workflows
+
+- **Containerization**
+  - Docker fundamentals
+  - Dockerfiles & images
+  - Multi-container applications
+
+- **Orchestration**
+  - Kubernetes Architecture
+  - Deployments & Services
+  - ConfigMaps & Secrets
+
+- **CI/CD**
+  - Pipeline Design
+  - Automation Workflows
+  - Build & Release Strategies
+
+- **Infrastructure as Code**
+  - Terraform Fundamentals
+  - Provisioning Cloud Infrastructure
+  - State Management & Modules
+
+- **Cloud Platforms**
+  - Core Cloud Concepts
+  - Deployment Patterns
+  - Security Best Practices
+
+***
+
+## 🛠 Tools & Technologies
+
+- Git
+
+- Docker
+
+- Kubernetes
+
+- Terraform
+
+- Jenkins / GitHub Actions
+
+- Linux
+
+- Cloud Providers (AWS/Azure/GCP)
+
+***
+
+## 📂 Repository Structure
+
+```bash
+DevOps-Mastery-Specialization/
+│
+├── git/
+├── docker/
+├── kubernetes/
+├── cicd/
+├── terraform/
+├── cloud/
+└── projects/
+```
+
+Each folder contains:
+
+- Notes
+
+- Practice exercises
+
+- Configuration files
+
+- Mini-projects
+
+***
+
+## 🎯 Learning Objectives
+
+- By completing this specialization, you will be able to:
+
+- Design and implement CI/CD pipelines
+
+- Containerize and deploy applications
+
+- Provision infrastructure using code
+
+- Deploy and manage Kubernetes workloads
+
+- Apply DevOps best practices in real-world environments
+
+***
+
+### 📖 Disclaimer
+
+This repository is for educational purposes and personal learning documentation as part of the KodeKloud DevOps Mastery Specialization.
+
+***
+
+### 📜 License
+
+
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
