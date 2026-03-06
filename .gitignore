@@ -1,36 +1,44 @@
 #################################################
+
 # OS FILES
+
 #################################################
 
 .DS_Store
+.DS_Store?
 Thumbs.db
 desktop.ini
 
 #################################################
-# EDITOR / IDE FILES
+
+# EDITORS / IDEs
+
 #################################################
 
-# Backup files
-*~
-
-# Vim
-*.swp
-*.swo
-*.vim
-
 # VS Code
+
 .vscode/
 
-# JetBrains IDEs
+# JetBrains
+
 .idea/
 *.iml
 
+# Vim
+
+*.swp
+*.swo
+*~
+
 # Emacs
-\#*\#
-.\#*
+
+#*#
+.#*
 
 #################################################
+
 # LOG FILES
+
 #################################################
 
 *.log
@@ -39,37 +47,110 @@ logs/
 *.err
 
 #################################################
-# TEMP FILES
+
+# TEMP / CACHE FILES
+
 #################################################
 
-*.tmp
-*.temp
 tmp/
 temp/
+*.tmp
+*.temp
+.cache/
 
 #################################################
+
 # ENVIRONMENT VARIABLES / SECRETS
+
 #################################################
 
 .env
 .env.*
+.envrc
 *.secret
 *.key
 *.pem
 *.crt
 *.p12
 
-# AWS credentials
-.aws/
+#################################################
+
+# AWS / CLOUD CREDENTIALS
 
 #################################################
+
+.aws/
+.gcloud/
+.azure/
+
+#################################################
+
+# PYTHON
+
+#################################################
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# virtual environments
+
+.venv/
+venv/
+env/
+
+# packaging
+
+build/
+dist/
+*.egg-info/
+
+# testing / coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# type checking
+
+.mypy_cache/
+
+#################################################
+
+# NODE / JAVASCRIPT TOOLING
+
+#################################################
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+package-lock.json
+
+#################################################
+
+# DOCKER
+
+#################################################
+
+docker-compose.override.yml
+*.tar
+
+#################################################
+
 # TERRAFORM
+
 #################################################
 
 .terraform/
 .terraform.lock.hcl
-terraform.tfstate
-terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+*.tfstate.lock.info
 crash.log
 override.tf
 override.tf.json
@@ -77,54 +158,57 @@ override.tf.json
 *_override.tf.json
 
 #################################################
+
 # KUBERNETES
+
 #################################################
 
 *.kubeconfig
 kubeconfig
-secrets.yaml
-secrets.yml
+.kube/
 
 #################################################
-# DOCKER
-#################################################
 
-docker-compose.override.yml
-*.tar
+# HELM
 
 #################################################
-# PYTHON (common in DevOps tooling)
-#################################################
 
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-dist/
-build/
-.venv/
-venv/
+*.tgz
+charts/*.tgz
 
 #################################################
-# NODEJS (used for tooling / CI utilities)
-#################################################
 
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
+# ANSIBLE
 
 #################################################
-# CI/CD ARTIFACTS
+
+*.retry
+ansible.log
+
+#################################################
+
+# CI / CD ARTIFACTS
+
 #################################################
 
 coverage/
 reports/
 artifacts/
+build/
 
 #################################################
+
+# DATABASE FILES
+
+#################################################
+
+*.sqlite
+*.db
+
+#################################################
+
 # ARCHIVES
+
 #################################################
 
 *.zip
@@ -132,11 +216,15 @@ artifacts/
 *.tar.gz
 *.tgz
 *.rar
+*.7z
 
 #################################################
+
 # MISC
+
 #################################################
 
 *.bak
 *.backup
 *.old
+
